@@ -1,0 +1,30 @@
+﻿body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.login-page {
+    background-image: url('Images/loginBackground.png');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+}
+
+.login-window {
+    top: 50%;
+    left: 50%;
+    width: 30em;
+    height: 18em;
+    margin-top: -9em; 
+    margin-left: -15em; 
+    border: 1px solid #ccc;
+    position: fixed;
+    background-color:#fff;
+}
+
+.login-form{
+    padding: 10px;
+}
