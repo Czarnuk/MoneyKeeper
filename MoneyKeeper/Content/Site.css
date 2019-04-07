@@ -1,0 +1,76 @@
+﻿body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.login-page {
+    background-image: url('Images/loginBackground.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.login-window {
+    top: 50%;
+    left: 50%;
+    width: 30em;
+    height: 18em;
+    margin-top: -9em; 
+    margin-left: -15em; 
+    border: 1px solid #ccc;
+    position: fixed;
+    background-color:#fff;
+}
+
+.login-form{
+    padding: 10px;
+}
+
+.login-form-links {
+    font-size: 10px;
+}
+
+.login-form-sign-up{
+    text-align: center;
+}
+
+.full-content
+{
+    width: 100%;
+    height: 100%;
+}
+.navigation-panel {
+    float: left;
+    width: 15%;
+    height: 100%;
+    background-color: #0a7af3;
+    text-align: center;
+}
+
+li a{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+ul > li:hover{
+    background-color: #040948;
+}
+
+ul > li{
+    border-top: 1px dashed #040948;
+}
+
+ul > li:first-child{
+    border-top: none;
+}
+
+ul > li:last-child {
+    border-bottom: 1px dashed #040948;
+}
+
+.content-panel {
+    background-color: aqua;
+    height: 100%;
+}

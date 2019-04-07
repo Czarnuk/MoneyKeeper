@@ -1,0 +1,39 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login</title>
+    @Styles.Render("~/Content/css")
+</head>
+<body >
+    <div class="login-page"> 
+        <div class="login-window">
+            <div class="login-form">
+                <form>
+                    <div class="form-group">
+                        <label>User login:</label>
+                        <input type="text" class="form-control" placeholder="User login..." />
+                    </div>
+                    <div class="form-group">
+                        <label>User password:</label>
+                        <input type="password" class="form-control" placeholder="User password..." />
+                        <a href="#" class="login-form-links">Forgot Password?</a>
+                    </div>
+                    <div class="form-group">
+                        <a class="btn btn-primary center-block" href="/Home/Index" role="button">Submit</a>
+                        <div class="login-form-sign-up">
+                            <a href="#" class="login-form-links">Sign Up!</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
