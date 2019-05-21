@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyKeeper", "MoneyKeeper\MoneyKeeper.csproj", "{4659E94E-CABD-4CF3-94AD-27CC688F0F7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{D750C27D-D090-4CE4-A414-AE4DEC5C66AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{329668C4-53F5-4FA5-8BE1-A81D2CC575E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{4659E94E-CABD-4CF3-94AD-27CC688F0F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4659E94E-CABD-4CF3-94AD-27CC688F0F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4659E94E-CABD-4CF3-94AD-27CC688F0F7E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D750C27D-D090-4CE4-A414-AE4DEC5C66AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D750C27D-D090-4CE4-A414-AE4DEC5C66AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D750C27D-D090-4CE4-A414-AE4DEC5C66AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D750C27D-D090-4CE4-A414-AE4DEC5C66AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329668C4-53F5-4FA5-8BE1-A81D2CC575E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329668C4-53F5-4FA5-8BE1-A81D2CC575E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329668C4-53F5-4FA5-8BE1-A81D2CC575E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329668C4-53F5-4FA5-8BE1-A81D2CC575E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
