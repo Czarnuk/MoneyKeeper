@@ -8,36 +8,43 @@
 </head>
 <body>
     <div class="full-content">
-        <div class="navigation-panel">
-            <ul class="nav flex-column">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Budget</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Targets</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Spending</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-linkd" href="#">Calendar</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Reciepts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="~/StartApplication/Login">Log Out!</a>
-                </li>
-            </ul>
-        </div>
-        <div class="content-panel">
-            <div class="content-panel-header">
+        <div class="row header-content">
+            <div class="col-sm-2 header-logo-content">
+                Logo
+            </div>
+            <div class="col-sm-10 header-title-content">
                 @ViewBag.Header
             </div>
-            @RenderBody()
+        </div>
+        <div class="row" style="height: 100%">
+            <div class="col-sm-2 navigation-content">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Budget</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Targets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Spending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-linkd" href="#">Calendar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reciepts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/StartApplication/Login">Log Out!</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-10 panel-content">
+                @RenderBody()
+            </div>
         </div>
     </div>
 
